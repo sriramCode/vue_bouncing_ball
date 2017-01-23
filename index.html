@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vue JS</title>
+    <meta charset=utf-8 />
+    <script src="script/vue.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="script/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="app">
+        <label>Enter the number of balls to be added:</label>
+        <input type="number" v-model="ball">
+        <button v-on:click="add()">Add</button>
+        <playground>
+        </playground>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

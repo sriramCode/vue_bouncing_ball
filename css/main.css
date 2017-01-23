@@ -1,0 +1,28 @@
+.paddle {
+    position: absolute;
+    border: 1px solid grey;
+    width: 80px;
+    height: 10px;
+}
+
+.bottom.paddle {
+    bottom: 0px;
+    background-color: green;
+}
+
+#ground {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    padding: 0;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+.circle {
+    display: block;
+    position: absolute;
+    background: red;
+    padding: 0px;
+    margin: 0px;
+}
